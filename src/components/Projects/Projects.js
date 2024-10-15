@@ -5,84 +5,84 @@ import stakingApp from "../../Assets/Projects/token-staking-app.png";
 import ChatAppImage from "../../Assets/Projects/ChatApp.png";
 import TwitterImage from "../../Assets/Projects/TwitterApp.png";
 import MarioImage from "../../Assets/Projects/Mario.png";
-import NFTMint from "../../Assets/Projects/nft-minting.png";
 import SwapToken from "../../Assets/Projects/swaptokens.png";
+import ChatsScreen from "../../Assets/Projects/chat-app/chats-screen.png";
+import FoodHomePage from "../../Assets/Projects/food-app/home-page.png";
+import CarOnboarding from "../../Assets/Projects/car-rental-app/get-started.png";
+import MovieApp from "../../Assets/Projects/movie-app/trending&popular.png";
+import NewsApp from "../../Assets/Projects/news-app/news-app.png";
 function Projects() {
-  return (
-    <Container fluid className="project-section">
-      {/* <Particle /> */}
-      <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
-        </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={NFTMint}
-              isBlog={false}
-              title="Mint NFT's"
-              description="A Decentralized NFT minting website, built on the Goerli Ethereum testnet. Users can seamlessly mint NFTs linked to their personal public addresses, each possessing a unique token ID. The website utilizes pre-saved AI-generated images from the IPFS node for NFT creation. Due to Smart contract's deployment on the Goerli testnet, only 99 limited NFTs resides on the IPFS. users can calim NFT by just a simple click on the mint button."
-              ghLink="https://github.com/divyyeshchandra/Mint-NFT"
-              demoLink="https://mint-nft-delta-flax.vercel.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={stakingApp}
-              isBlog={false}
-              title="Token-Staking-App"
-              description="A Token Staking Defi App built on Polygon Blockchain where Users can put the cryptocurrency(DBC) in the Smart Contract for 7 Days, 10 Days, 30 Days or 90 Days and can earn APY% reward for the amount of Days they stake the tokens. The Smart Contract for Token Staking and DBC Cryptocurrency is deployed on the Polygon Mumbai Network."
-              ghLink="https://github.com/divyyeshchandra/Token-Staking-App"
-              demoLink="https://token-staking-app-flame.vercel.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={SwapToken}
-              isBlog={false}
-              title="Uniswap-Clone"
-              description="A decentralized application where users have the ability to exchange Matic Mumbai tokens for various other coins, known as CoinA, CoinB, and CoinC. Users can also swap from Coin to Matic Mumbai tokens, and, lastly, they can exchange tokens from one Coin to another, similar to the swap feature in Uniswap. The smart contract for this application has been deployed on the Polygon Mumbai testnet, and each coin has a limit of 100,000."
-              ghLink="https://github.com/divyyeshchandra/Uniswap-clone"
-              demoLink="https://swap-tokens.vercel.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ChatAppImage}
-              isBlog={false}
-              title="Chat Buddy"
-              description="A Decentralized Chat Application built on Plygon Blockchain where users can create account using thier MetaMask wallet address and a unique username and can make friends who are live on the application then could chat with them. The Smart Contract for the Chat App is deployed on the Polygon Mumbai Blockchain. To test the App one can create multiple accounts on the Meta Mask Polygon Mumbai with the username."
-              ghLink="https://github.com/divyyeshchandra/Chat-App-3.0"
-              demoLink="https://chat-app-3-0.vercel.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={TwitterImage}
-              isBlog={false}
-              title="Twitter-3.0"
-              description="A Decentralized Twitter Clone App built on Goerli Ethereum Testnet Blockchain where user can perform almost all the operation just like Centerlized Twitter, But for performing all the operations user need to connect to Goerli Testnet using thier Meta Mask wallet. The Smart Contract for this Decentralized application is Deployed on the Goerli Blockchain."
-              ghLink="https://github.com/divyyeshchandra/Twitter-Web3"
-              demoLink="https://twitter-web3-uiyy.vercel.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={MarioImage}
-              isBlog={false}
-              title="Mario-3.0"
-              description="A Decentralized Running Mario Game App built on Ropsten Test Network of Ethereum where users can play game just like Subway Suffers or Mario and earn NFT's and Cryptocurrency. User can later claim these rewards connecting thier Meta Mask wallet to the Ropsten Network because both the ERC-721 and ERC-20 Smart Contract is Deployed on this Network."
-              ghLink="https://github.com/divyyeshchandra/Mario-3.0"
-              demoLink="https://mario-3-0.vercel.app/"
-            />
-          </Col>
-        </Row>
-      </Container>
-    </Container>
-  );
+	return (
+		<Container fluid className="project-section">
+			{/* <Particle /> */}
+			<Container>
+				<h1 className="project-heading">
+					My Recent <strong className="purple">Works </strong>
+				</h1>
+				<p style={{ color: "white" }}>
+					Here are a few projects I've worked on recently.
+				</p>
+				<Row
+					style={{ justifyContent: "center", paddingBottom: "10px" }}
+				>
+					<Col md={4} className="project-card">
+						<ProjectCard
+							imgPath={ChatsScreen}
+							isBlog={false}
+							title="Chat App"
+							description="A real-time chat application built using Dart, Flutter, Node.js, Express.js, Socket.io, MongoDB, Bloc state management, and Clean Architecture. This application allows users to engage in seamless, real-time communication with each other, offering a smooth and interactive chat experience."
+							ghLink="https://github.com/namansharma05/clean_arch_bloc_chat_app"
+						/>
+					</Col>
+					<Col md={4} className="project-card">
+						<ProjectCard
+							imgPath={FoodHomePage}
+							isBlog={false}
+							title="Food App"
+							description="A fully-fledged mobile application that enables users to sign in via Gmail, add fresh products to their wishlist or cart, and make purchases using Cash on Delivery or Google Payments. The app is built using Dart, Flutter, Firebase, Provider, and follows Clean Architecture principles to ensure scalability and maintainability."
+							ghLink="https://github.com/namansharma05/provider_food_app"
+						/>
+					</Col>
+					<Col md={4} className="project-card">
+						<ProjectCard
+							imgPath={CarOnboarding}
+							isBlog={false}
+							title="Car Rental App"
+							description="A mobile application that allows users to rent luxury cars at affordable prices, offering real-time data management. Built using Dart, Flutter, APIs, Bloc state management, and Clean Architecture, this app enables users to view the current location of the car they wish to rent, providing a seamless and efficient rental experience."
+							ghLink="https://github.com/namansharma05/clean_arch_bloc_car_rental_app"
+						/>
+					</Col>
+					<Col md={4} className="project-card">
+						<ProjectCard
+							imgPath={MovieApp}
+							isBlog={false}
+							title="Movie App"
+							description="Designed and developed a mobile application that offers users a streamlined interface for discovering trending and popular movies. The application includes a robust search feature. Built using Dart, Flutter, APIs, Bloc state management, and Clean Architecture, ensuring an efficient and maintainable codebase. The user-friendly design enhances the overall experience, making it easy for users to explore and find movies they love"
+							ghLink="https://github.com/namansharma05/clean_arch_bloc_movie_app"
+						/>
+					</Col>
+					<Col md={4} className="project-card">
+						<ProjectCard
+							imgPath={NewsApp}
+							isBlog={false}
+							title="News App"
+							description="A dynamic mobile application that allows users to browse and read daily news articles from various countries and industries. The application features an intuitive interface that categorizes news articles, making it easy for users to stay informed about global events and trends. Built using Dart and Flutter, the app utilizes APIs to fetch the latest news and employs Bloc state management alongside Clean Architecture to ensure a responsive and maintainable codebase."
+							ghLink="https://github.com/namansharma05/clean_arch_bloc_news_app"
+						/>
+					</Col>
+					<Col md={4} className="project-card">
+						<ProjectCard
+							imgPath={MarioImage}
+							isBlog={false}
+							title="Alarm App"
+							description="A Decentralized Running Mario Game App built on Ropsten Test Network of Ethereum where users can play game just like Subway Suffers or Mario and earn NFT's and Cryptocurrency. User can later claim these rewards connecting thier Meta Mask wallet to the Ropsten Network because both the ERC-721 and ERC-20 Smart Contract is Deployed on this Network."
+							ghLink="https://github.com/namansharma05/alarm-app"
+						/>
+					</Col>
+				</Row>
+			</Container>
+		</Container>
+	);
 }
 
 export default Projects;
