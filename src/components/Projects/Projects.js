@@ -70,7 +70,7 @@ function Projects() {
 							ghLink="https://github.com/namansharma05/clean_arch_bloc_news_app"
 						/>
 					</Col>
-					<Col md={4} className="project-card">
+					{/* <Col md={4} className="project-card">
 						<ProjectCard
 							imgPath={MarioImage}
 							isBlog={false}
@@ -78,7 +78,7 @@ function Projects() {
 							description="A Decentralized Running Mario Game App built on Ropsten Test Network of Ethereum where users can play game just like Subway Suffers or Mario and earn NFT's and Cryptocurrency. User can later claim these rewards connecting thier Meta Mask wallet to the Ropsten Network because both the ERC-721 and ERC-20 Smart Contract is Deployed on this Network."
 							ghLink="https://github.com/namansharma05/alarm-app"
 						/>
-					</Col>
+					</Col> */}
 				</Row>
 			</Container>
 		</Container>

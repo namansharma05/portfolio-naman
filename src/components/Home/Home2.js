@@ -42,7 +42,7 @@ function Home2() {
 							scalable, and efficient code, I have worked on
 							various personal projects that emphasize
 							user-friendly design and seamless functionality. My
-							expertise includes state management with tools tile
+							expertise includes state management with tools like
 							Bloc and Provider, implementing Clean Architecture
 							principles, and API Integration from Remote as well
 							as Local server. I am eager to contribute to
@@ -56,6 +56,15 @@ function Home2() {
 									Flutter Development, Dart, Firebase, Clean
 									Architecture, Bloc, Provider, GetX state
 									management and API Integration.{" "}
+								</b>
+							</i>
+							<br />
+							<br />
+							For Database and Backend I use
+							<i>
+								<b className="purple">
+									{" "}
+									Node.js/Express.js, MongoDB, MySql.{" "}
 								</b>
 							</i>
 						</p>
